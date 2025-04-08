@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 ![Logo](Summery.png)
-![Logo](Technoologies.png)
 ![Logo](profile.png)
+![Logo](Technoologies.png)
+
 
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
