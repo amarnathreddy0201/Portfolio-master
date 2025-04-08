@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 ![Logo](Summery.png)
-![Logo](Technologies.png)
+![Logo](Technoologies.png)
 ![Logo](profile.png)
 
 
