@@ -1,0 +1,82 @@
+.banner {
+  background-size: cover;
+  padding: 10px;
+  text-align: left;
+}
+
+.banner-inner {
+  margin: 30px;
+  padding: 100px;
+  border-radius: 30px;
+  background-color: rgba(249, 250, 251, 0.01);
+  backdrop-filter: blur(1px);
+}
+
+.banner h1 {
+  color: #e3e3e3;
+  font-size: 112px;
+  font-weight: 475;
+}
+
+.banner p {
+  color: #e3e3e3;
+  font-size: 22px;
+  font-weight: 400;
+  width: 60%;
+}
+
+.banner button {
+  border-radius: 48px;
+  cursor: pointer;
+  padding: 20px 48px;
+  background-color: #a8c7fa;
+  color: #062e6f;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 475;
+  border: none;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner h1 {
+    font-size: 80px;
+  }
+  .banner p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .banner-inner {
+    padding: 40px;
+  }
+  .banner h1 {
+    font-size: 60px;
+  }
+  .banner p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .banner button {
+    font-size: 20px;
+    padding: 15px 35px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-inner {
+    margin: 10px;
+  }
+  .banner h1 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+  .banner button {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}

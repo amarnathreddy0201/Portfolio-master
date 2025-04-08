@@ -1,0 +1,32 @@
+.skills {
+  padding: 100px 30px;
+  padding-top: 0;
+}
+
+.skills-col {
+  background-color: rgba(249, 250, 251, 0.05);
+  backdrop-filter: blur(15px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+
+.skills img {
+  width: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .skills-col {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    padding-bottom: 30px;
+  }
+}
